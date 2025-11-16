@@ -57,6 +57,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "fill-ai": {
+          "bg-primary": "hsl(var(--bg-primary))",
+          "bg-secondary": "hsl(var(--bg-secondary))",
+          "bg-canvas": "hsl(var(--bg-canvas))",
+          "text-primary": "hsl(var(--text-primary))",
+          "text-secondary": "hsl(var(--text-secondary))",
+          "node-default": "hsl(var(--node-default))",
+          "node-hover": "hsl(var(--node-hover))",
+          "node-user": "hsl(var(--node-user))",
+          "connection": "hsl(var(--connection-line))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -84,6 +95,11 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in-up": "fade-in-up 0.6s ease-out",
+        "pulse-glow": "pulse-glow 2s ease-in-out infinite",
+      },
+      fontFamily: {
+        sans: ['Montserrat', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
       },
     },
   },
